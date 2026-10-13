@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>天打雷劈</title>
+<style>
+:root{--night:#0a0c1d;--line:#2e3466;--volt:#bfe6ff;--amber:#ffc94a;--ink:#e9ecff;--mute:#959bc8;color-scheme:dark}
+html,body{height:100%;margin:0}
+body{background:radial-gradient(ellipse at 50% 0%,#23274d 0%,var(--night) 60%);color:var(--ink);
+  font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;display:grid;place-items:center;
+  padding:calc(env(safe-area-inset-top,0px) + 24px) 16px calc(env(safe-area-inset-bottom,0px) + 24px);box-sizing:border-box}
+main{width:min(380px,100%);display:grid;gap:16px}
+h1{margin:0;font-size:56px;font-weight:800;letter-spacing:.08em;color:#fff;text-shadow:0 0 18px rgba(150,200,255,.7)}
+p{margin:0;line-height:1.7;font-size:15px}
+a.card{display:grid;gap:4px;text-decoration:none;color:var(--ink);border:1px solid var(--line);border-radius:16px;padding:16px 18px;background:#161a38}
+a.card:hover,a.card:focus-visible{border-color:var(--volt);outline:none}
+a.card b{font-size:18px}
+a.card span{font-size:13px;color:var(--mute)}
+a.card.main{background:var(--amber);border-color:var(--amber);color:#1b1400}
+a.card.main span{color:#4a3a00}
+small{color:var(--mute);font-size:12px;text-align:center}
+</style>
+</head>
+<body>
+<main>
+  <h1>天打雷劈</h1>
+  <p>闪电领唱，你来跟唱。跟着节奏掐掉跑偏的支叉，把雷劈到欺负小动物的坏蛋头上。</p>
+  <a class="card main" href="rhythm/"><b>节奏版（推荐）</b><span>8 关 · 含无限深渊</span></a>
+  <a class="card" href="classic/"><b>经典版</b><span>最早的寻路玩法 · 3 关</span></a>
+  <small>建议用手机竖屏玩，打开声音</small>
+</main>
+</body>
+</html>
